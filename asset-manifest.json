@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AdnanShahSahb/reactJs-movieRatingApp/static/css/main.b0545c84.css",
+    "main.js": "/AdnanShahSahb/reactJs-movieRatingApp/static/js/main.46d4d853.js",
+    "static/media/imght.jpg": "/AdnanShahSahb/reactJs-movieRatingApp/static/media/imght.ee0d7f5a129826880489.jpg",
+    "index.html": "/AdnanShahSahb/reactJs-movieRatingApp/index.html",
+    "main.b0545c84.css.map": "/AdnanShahSahb/reactJs-movieRatingApp/static/css/main.b0545c84.css.map",
+    "main.46d4d853.js.map": "/AdnanShahSahb/reactJs-movieRatingApp/static/js/main.46d4d853.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0545c84.css",
+    "static/js/main.46d4d853.js"
+  ]
+}
