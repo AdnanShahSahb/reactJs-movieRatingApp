@@ -13,7 +13,7 @@ function App() {
         <Header/>
         <div className='container'>
           <Routes>
-            <Route path="/reactJs-movieRatingApp/" exact element={<Home />} />
+            <Route path="/reactJs-movieRatingApp" exact element={<Home />} />
             <Route path="/movie/:imdbID" element={<MovieDetail />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>
