@@ -1,0 +1,19 @@
+THIS IS A MOVIE/SERIES LISTING APP MADE IN REACT JS, REDUX TOOLKIT for state management and centralizing the data AND SASS for styling.
+
+There are total 3 pages 
+which are Home, Movie Detail, and 404page
+
+it all starts from the "Home" page where we use useDispatch hook to dispatch functions "fetchingTheMovies()/fetchingTheSeries()" which fetches the list of  movies and series from the API known as "IMDB" and store in "store".
+And in the child component of home page we use selector to get data from the store
+
+then come to the "movieDetails" page
+when you click any of the card in the "home page", it routes to the movieDetail page along with that specific ID of the card
+IN the MovieDetail page, the id is get with the use of useParams hook and functions "fetchSpecificDetails()"BTW IT IS FOR FETCHING SPECIFIC MOVIES and "fetchSpecificSeriesDetails()" is dispatched and by using that ID, we fetch the specific movie/series and render it.
+
+WE ALSO DISPATCH "removeSelectedMovieOrSeries()" AS A CLEANUP FUNC SO IT DOESNT SHOW THE PREVIOUS SELECTED SPECIFIC MOVIE/SERIES
+
+
+SO IN SUMMARY, WE FETCH TWO TIMES USING AXIOS. 
+1) WHEN WE WANT TO LIST
+2) WHEN WE WANT TO LOOK THE DETAIL_ ONLY THE ID IS PASSED HERE FROM THE OTHER PAGE USING ROUTING AND USEPARAMS. BY USING THAT ID, WE FETCH THE MOVIE DETAILS.
+
